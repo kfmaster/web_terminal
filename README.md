@@ -1,7 +1,8 @@
-# K8s WebTerminal based on https://github.com/infraboard/mpaas
-# All credits to the original author: yumaojun03
-# This is a shrink down version based on above repo
-# It mainly implement a web_terminal on local browser to login to a Kubernetes Pod container and show its logs
+### K8s WebTerminal based on https://github.com/infraboard/mpaas
+### All credits to the original author: yumaojun03
+
+### This is a shrink down version based on above repo
+### It mainly implement a web_terminal on local browser to login to a Kubernetes Pod container and show its logs
 
 ## Initialize Project
 
@@ -49,11 +50,11 @@ cd web_terminal
 go run main.go
 ```
 
-# Then go to local brower: http://127.0.0.1:8080
-# You should see 2 tabs: "ShowContainerLog" and "LoginContainer"
+## Then go to local brower: http://127.0.0.1:8080
+## You should see 2 tabs: "ShowContainerLog" and "LoginContainer"
 
-# The "ShowContainerlog" will ask you for the namespace, pod and container information then show container log
+## The "ShowContainerlog" will ask you for the namespace, pod and container information then show container log
 
-# The "LoginContainer" will ask you for the namespace, pod and container information then you can login to the container and do interactive session on the container
+## The "LoginContainer" will ask you for the namespace, pod and container information then you can login to the container and do interactive session on the container
 
 
