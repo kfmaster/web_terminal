@@ -1,5 +1,5 @@
 ### K8s WebTerminal based on https://github.com/infraboard/mpaas
-### All credits to the original author: yumaojun03
+### Credits to the original author: yumaojun03
 
 ### This is a shrink down version based on above repo
 ### It mainly implement a web_terminal on local browser to login to a Kubernetes Pod container and do interactive commands like a cloud shell, or it shows the container logs
